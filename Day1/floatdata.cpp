@@ -1,7 +1,6 @@
-# DSA-SERIES
 #include<iostream>
 using namespace std;
 int main(){
-    cout<<"Raushan kumar";
+    float a=5.33;
+    cout<<a;
 }
- 
