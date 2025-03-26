@@ -14,8 +14,11 @@ int main(){
         if(sum<300){
         if(i%5!=0){
             sum=sum+i;
-           if(sum>300) break;
-    }
+           if(sum>300) {
+            sum=sum-i;
+            break;
+           }
+}
     i++;
 }
 else break;

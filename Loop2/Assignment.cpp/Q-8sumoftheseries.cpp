@@ -4,3 +4,18 @@
 //and then calculate. And the output style should match which is given in the
 //Example. Input: 5
 //Output: Sum of above series is: 24690
+#include<iostream>
+using namespace std;
+int main(){
+    int n;
+    cout<<"Enter the  number of term=";
+    cin>>n;
+    int next=0;
+    int sum=0;
+        for(int i=1;i<=n;i++){
+            next=next*10+2;
+            //cout<<next<<"\n";
+            sum=sum+next;
+        }
+  cout<<sum;
+}
